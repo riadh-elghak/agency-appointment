@@ -1,0 +1,7 @@
+#services:
+#  feedsparser.feedsparser_aggregator_processor:
+#    class: Drupal\feedsparser\Plugin\aggregator\processor\FeedsParserAggregatorProcessor
+#    parent: plugin.manager.aggregator.processor
+#    arguments: ['@entity.manager', '@config.factory', '@logger.channel.aggregator', '@current_user']
+#    tags:
+#      - { name: 'plugin', type: 'aggregator_processor' }
