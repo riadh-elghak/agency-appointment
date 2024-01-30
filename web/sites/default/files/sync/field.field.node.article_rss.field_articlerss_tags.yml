@@ -1,15 +1,15 @@
-uuid: f351e40b-c53b-4e00-a003-5b77cefa7d03
+uuid: 08e0f632-41eb-4905-a9be-a80d3530251d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_blog_tags
-    - node.type.blog_post
+    - field.storage.node.field_articlerss_tags
+    - node.type.article_rss
     - taxonomy.vocabulary.tags
-id: node.blog_post.field_blog_tags
-field_name: field_blog_tags
+id: node.article_rss.field_articlerss_tags
+field_name: field_articlerss_tags
 entity_type: node
-bundle: blog_post
+bundle: article_rss
 label: Tags
 description: ''
 required: false

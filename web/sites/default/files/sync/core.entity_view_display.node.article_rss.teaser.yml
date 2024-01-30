@@ -1,0 +1,32 @@
+uuid: b2614861-ef09-40f0-8514-8e4819901c02
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article_rss.body
+    - field.field.node.article_rss.field_articlerss_tags
+    - node.type.article_rss
+  module:
+    - text
+    - user
+id: node.article_rss.teaser
+targetEntityType: node
+bundle: article_rss
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_articlerss_tags: true

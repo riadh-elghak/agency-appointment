@@ -1,0 +1,13 @@
+uuid: b5fc685d-079b-4426-95e3-6357dd5cad92
+langcode: en
+status: true
+dependencies:
+  module:
+    - aggregator
+_core:
+  default_config_hash: QBUcStGTLulHMyYgLwZWdHfUqj-YCQFT-TW0ojsw8pw
+id: aggregator_feed.summary
+label: Summary
+description: ''
+targetEntityType: aggregator_feed
+cache: true

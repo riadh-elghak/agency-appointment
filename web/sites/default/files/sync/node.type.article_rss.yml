@@ -1,4 +1,4 @@
-uuid: d18ec269-01fb-48e7-b11b-6d6d9e2e51d9
+uuid: 17ff4af9-3e60-4729-bd0b-2ea454513c9f
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'Blog Post'
-type: blog_post
+name: 'Article RSS'
+type: article_rss
 description: ''
 help: ''
 new_revision: false

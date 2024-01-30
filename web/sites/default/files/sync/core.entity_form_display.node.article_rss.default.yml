@@ -1,17 +1,17 @@
-uuid: 98f78a67-cc30-4ebc-aa61-ddc302258d3e
+uuid: c4f27a92-54fa-4aa0-985b-942dbf2c2f84
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.blog_post.body
-    - field.field.node.blog_post.field_blog_tags
-    - node.type.blog_post
+    - field.field.node.article_rss.body
+    - field.field.node.article_rss.field_articlerss_tags
+    - node.type.article_rss
   module:
     - path
     - text
-id: node.blog_post.default
+id: node.article_rss.default
 targetEntityType: node
-bundle: blog_post
+bundle: article_rss
 mode: default
 content:
   body:
@@ -30,7 +30,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_blog_tags:
+  field_articlerss_tags:
     type: entity_reference_autocomplete
     weight: 122
     region: content
